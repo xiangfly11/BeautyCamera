@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		0437B3DF23A0E7B400ECC120 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437B3DE23A0E7B400ECC120 /* AppDelegate.swift */; };
-		0437B3E123A0E7B400ECC120 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437B3E023A0E7B400ECC120 /* SceneDelegate.swift */; };
-		0437B3E323A0E7B400ECC120 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437B3E223A0E7B400ECC120 /* ViewController.swift */; };
 		0437B3E623A0E7B400ECC120 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0437B3E423A0E7B400ECC120 /* Main.storyboard */; };
 		0437B3E823A0E7B500ECC120 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0437B3E723A0E7B500ECC120 /* Assets.xcassets */; };
 		0437B3EB23A0E7B500ECC120 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0437B3E923A0E7B500ECC120 /* LaunchScreen.storyboard */; };
 		0437B3F623A0E7B500ECC120 /* BeautyCameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437B3F523A0E7B500ECC120 /* BeautyCameraTests.swift */; };
 		0437B40123A0E7B500ECC120 /* BeautyCameraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437B40023A0E7B500ECC120 /* BeautyCameraUITests.swift */; };
+		0437B41B23A0E88700ECC120 /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0437B41523A0E84B00ECC120 /* GPUImage.framework */; };
+		0437B41E23A0E92E00ECC120 /* GPUImage.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0437B41523A0E84B00ECC120 /* GPUImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0437B42023A0EAB800ECC120 /* BCCaputerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437B41F23A0EAB800ECC120 /* BCCaputerVC.swift */; };
+		0437B42623A0ED1700ECC120 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 0437B42523A0ED1700ECC120 /* Podfile */; };
+		1559E57CC5BBDE36E6DEAC59 /* Pods_BeautyCamera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB869187BAE106A91757852B /* Pods_BeautyCamera.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,13 +35,45 @@
 			remoteGlobalIDString = 0437B3DA23A0E7B400ECC120;
 			remoteInfo = BeautyCamera;
 		};
+		0437B41423A0E84B00ECC120 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0437B40F23A0E84B00ECC120 /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCE0BE7C20D6DE610006E120;
+			remoteInfo = GPUImage_iOS;
+		};
+		0437B41623A0E84B00ECC120 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0437B40F23A0E84B00ECC120 /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCE0BE8C20D6E2B80006E120;
+			remoteInfo = GPUImage_macOS;
+		};
+		0437B41823A0E87300ECC120 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0437B40F23A0E84B00ECC120 /* GPUImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BCE0BE7B20D6DE610006E120;
+			remoteInfo = GPUImage_iOS;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0437B41D23A0E90B00ECC120 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0437B41E23A0E92E00ECC120 /* GPUImage.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0437B3DB23A0E7B400ECC120 /* BeautyCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeautyCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0437B3DE23A0E7B400ECC120 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0437B3E023A0E7B400ECC120 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0437B3E223A0E7B400ECC120 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0437B3E523A0E7B400ECC120 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0437B3E723A0E7B500ECC120 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0437B3EA23A0E7B500ECC120 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +84,12 @@
 		0437B3FC23A0E7B500ECC120 /* BeautyCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeautyCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0437B40023A0E7B500ECC120 /* BeautyCameraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautyCameraUITests.swift; sourceTree = "<group>"; };
 		0437B40223A0E7B500ECC120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0437B40F23A0E84B00ECC120 /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage.xcodeproj; path = "GPUImage3-master/framework/GPUImage.xcodeproj"; sourceTree = "<group>"; };
+		0437B41F23A0EAB800ECC120 /* BCCaputerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BCCaputerVC.swift; sourceTree = "<group>"; };
+		0437B42523A0ED1700ECC120 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		0EE30646393240572FA87A68 /* Pods-BeautyCamera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeautyCamera.release.xcconfig"; path = "Target Support Files/Pods-BeautyCamera/Pods-BeautyCamera.release.xcconfig"; sourceTree = "<group>"; };
+		9927522C4C614CB9871103C8 /* Pods-BeautyCamera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeautyCamera.debug.xcconfig"; path = "Target Support Files/Pods-BeautyCamera/Pods-BeautyCamera.debug.xcconfig"; sourceTree = "<group>"; };
+		CB869187BAE106A91757852B /* Pods_BeautyCamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeautyCamera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +97,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0437B41B23A0E88700ECC120 /* GPUImage.framework in Frameworks */,
+				1559E57CC5BBDE36E6DEAC59 /* Pods_BeautyCamera.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +122,13 @@
 		0437B3D223A0E7B400ECC120 = {
 			isa = PBXGroup;
 			children = (
+				0437B42523A0ED1700ECC120 /* Podfile */,
 				0437B3DD23A0E7B400ECC120 /* BeautyCamera */,
 				0437B3F423A0E7B500ECC120 /* BeautyCameraTests */,
 				0437B3FF23A0E7B500ECC120 /* BeautyCameraUITests */,
 				0437B3DC23A0E7B400ECC120 /* Products */,
+				0437B41A23A0E88700ECC120 /* Frameworks */,
+				FEE7257FFB3D8D694F0F7AE9 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +145,12 @@
 		0437B3DD23A0E7B400ECC120 /* BeautyCamera */ = {
 			isa = PBXGroup;
 			children = (
+				0437B42423A0ECF800ECC120 /* Models */,
+				0437B42323A0ECED00ECC120 /* ViewModels */,
+				0437B42223A0ECE000ECC120 /* Views */,
+				0437B42123A0ECD100ECC120 /* Controllers */,
+				0437B40E23A0E81A00ECC120 /* SupportFiles */,
 				0437B3DE23A0E7B400ECC120 /* AppDelegate.swift */,
-				0437B3E023A0E7B400ECC120 /* SceneDelegate.swift */,
-				0437B3E223A0E7B400ECC120 /* ViewController.swift */,
 				0437B3E423A0E7B400ECC120 /* Main.storyboard */,
 				0437B3E723A0E7B500ECC120 /* Assets.xcassets */,
 				0437B3E923A0E7B500ECC120 /* LaunchScreen.storyboard */,
@@ -128,6 +177,70 @@
 			path = BeautyCameraUITests;
 			sourceTree = "<group>";
 		};
+		0437B40E23A0E81A00ECC120 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				0437B40F23A0E84B00ECC120 /* GPUImage.xcodeproj */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		0437B41023A0E84B00ECC120 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0437B41523A0E84B00ECC120 /* GPUImage.framework */,
+				0437B41723A0E84B00ECC120 /* GPUImage.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0437B41A23A0E88700ECC120 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB869187BAE106A91757852B /* Pods_BeautyCamera.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0437B42123A0ECD100ECC120 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0437B41F23A0EAB800ECC120 /* BCCaputerVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0437B42223A0ECE000ECC120 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0437B42323A0ECED00ECC120 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0437B42423A0ECF800ECC120 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FEE7257FFB3D8D694F0F7AE9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9927522C4C614CB9871103C8 /* Pods-BeautyCamera.debug.xcconfig */,
+				0EE30646393240572FA87A68 /* Pods-BeautyCamera.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,13 +248,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0437B40523A0E7B500ECC120 /* Build configuration list for PBXNativeTarget "BeautyCamera" */;
 			buildPhases = (
+				FA0B47D3B090295A1A1C776D /* [CP] Check Pods Manifest.lock */,
 				0437B3D723A0E7B400ECC120 /* Sources */,
 				0437B3D823A0E7B400ECC120 /* Frameworks */,
 				0437B3D923A0E7B400ECC120 /* Resources */,
+				0437B41D23A0E90B00ECC120 /* CopyFiles */,
+				4D135E5722212F78018D916B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0437B41923A0E87300ECC120 /* PBXTargetDependency */,
 			);
 			name = BeautyCamera;
 			productName = BeautyCamera;
@@ -218,6 +335,12 @@
 			mainGroup = 0437B3D223A0E7B400ECC120;
 			productRefGroup = 0437B3DC23A0E7B400ECC120 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 0437B41023A0E84B00ECC120 /* Products */;
+					ProjectRef = 0437B40F23A0E84B00ECC120 /* GPUImage.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				0437B3DA23A0E7B400ECC120 /* BeautyCamera */,
@@ -227,6 +350,23 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		0437B41523A0E84B00ECC120 /* GPUImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GPUImage.framework;
+			remoteRef = 0437B41423A0E84B00ECC120 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0437B41723A0E84B00ECC120 /* GPUImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GPUImage.framework;
+			remoteRef = 0437B41623A0E84B00ECC120 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		0437B3D923A0E7B400ECC120 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -234,6 +374,7 @@
 			files = (
 				0437B3EB23A0E7B500ECC120 /* LaunchScreen.storyboard in Resources */,
 				0437B3E823A0E7B500ECC120 /* Assets.xcassets in Resources */,
+				0437B42623A0ED1700ECC120 /* Podfile in Resources */,
 				0437B3E623A0E7B400ECC120 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,14 +395,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4D135E5722212F78018D916B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BeautyCamera/Pods-BeautyCamera-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BeautyCamera/Pods-BeautyCamera-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BeautyCamera/Pods-BeautyCamera-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA0B47D3B090295A1A1C776D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BeautyCamera-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0437B3D723A0E7B400ECC120 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0437B3E323A0E7B400ECC120 /* ViewController.swift in Sources */,
+				0437B42023A0EAB800ECC120 /* BCCaputerVC.swift in Sources */,
 				0437B3DF23A0E7B400ECC120 /* AppDelegate.swift in Sources */,
-				0437B3E123A0E7B400ECC120 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +475,11 @@
 			isa = PBXTargetDependency;
 			target = 0437B3DA23A0E7B400ECC120 /* BeautyCamera */;
 			targetProxy = 0437B3FD23A0E7B500ECC120 /* PBXContainerItemProxy */;
+		};
+		0437B41923A0E87300ECC120 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GPUImage_iOS;
+			targetProxy = 0437B41823A0E87300ECC120 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -366,7 +553,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +607,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -432,11 +619,13 @@
 		};
 		0437B40623A0E7B500ECC120 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9927522C4C614CB9871103C8 /* Pods-BeautyCamera.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5V9N6LR458;
 				INFOPLIST_FILE = BeautyCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,11 +639,13 @@
 		};
 		0437B40723A0E7B500ECC120 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EE30646393240572FA87A68 /* Pods-BeautyCamera.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5V9N6LR458;
 				INFOPLIST_FILE = BeautyCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
