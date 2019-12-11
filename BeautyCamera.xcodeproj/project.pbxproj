@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,7 @@
 		0437B41E23A0E92E00ECC120 /* GPUImage.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0437B41523A0E84B00ECC120 /* GPUImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0437B42023A0EAB800ECC120 /* BCCaputerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437B41F23A0EAB800ECC120 /* BCCaputerVC.swift */; };
 		0437B42623A0ED1700ECC120 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 0437B42523A0ED1700ECC120 /* Podfile */; };
+		0437B42923A0FB3F00ECC120 /* BCCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437B42823A0FB3F00ECC120 /* BCCaptureView.swift */; };
 		1559E57CC5BBDE36E6DEAC59 /* Pods_BeautyCamera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB869187BAE106A91757852B /* Pods_BeautyCamera.framework */; };
 /* End PBXBuildFile section */
 
@@ -87,6 +88,7 @@
 		0437B40F23A0E84B00ECC120 /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage.xcodeproj; path = "GPUImage3-master/framework/GPUImage.xcodeproj"; sourceTree = "<group>"; };
 		0437B41F23A0EAB800ECC120 /* BCCaputerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BCCaputerVC.swift; sourceTree = "<group>"; };
 		0437B42523A0ED1700ECC120 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		0437B42823A0FB3F00ECC120 /* BCCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BCCaptureView.swift; sourceTree = "<group>"; };
 		0EE30646393240572FA87A68 /* Pods-BeautyCamera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeautyCamera.release.xcconfig"; path = "Target Support Files/Pods-BeautyCamera/Pods-BeautyCamera.release.xcconfig"; sourceTree = "<group>"; };
 		9927522C4C614CB9871103C8 /* Pods-BeautyCamera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeautyCamera.debug.xcconfig"; path = "Target Support Files/Pods-BeautyCamera/Pods-BeautyCamera.debug.xcconfig"; sourceTree = "<group>"; };
 		CB869187BAE106A91757852B /* Pods_BeautyCamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeautyCamera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -213,6 +215,7 @@
 		0437B42223A0ECE000ECC120 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0437B42823A0FB3F00ECC120 /* BCCaptureView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -237,7 +240,6 @@
 				9927522C4C614CB9871103C8 /* Pods-BeautyCamera.debug.xcconfig */,
 				0EE30646393240572FA87A68 /* Pods-BeautyCamera.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -444,6 +446,7 @@
 			files = (
 				0437B42023A0EAB800ECC120 /* BCCaputerVC.swift in Sources */,
 				0437B3DF23A0E7B400ECC120 /* AppDelegate.swift in Sources */,
+				0437B42923A0FB3F00ECC120 /* BCCaptureView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
