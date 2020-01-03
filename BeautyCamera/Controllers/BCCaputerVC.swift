@@ -14,6 +14,7 @@ class BCCaputerVC: UIViewController {
     
     lazy var captureView: UIView = {() -> UIView in
         let view = UIView.init()
+        view.backgroundColor = UIColor.yellow
         return view
     }()
 
